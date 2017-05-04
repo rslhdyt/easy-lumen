@@ -1,0 +1,31 @@
+body { margin: 0; }
+.layout-top { 
+    height:30px; 
+    background:#D3D3D3;
+    padding:5px 
+}
+.layout-top h2 { margin: 5px 0 0 0; }
+.layout-left {
+    padding: 5px;
+}
+div.overlay {
+    background:#f3f3f3; 
+    width:100%;
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed; 
+}
+.menu-searchbox { margin: 5px; }
+
+.messager-body p {
+    margin: 0;
+}
+
+.logout {
+    float: right;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
